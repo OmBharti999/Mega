@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0.5vh;
-  padding: 3% 5%;
+  margin-top: 0.2vh;
+  padding: 0 5%;
+  min-height: 60px;
   color: white;
   background: #3ef0b8;
 }
@@ -24,10 +25,6 @@
 .not-active {
   position: relative;
   padding-left: 10px;
-  /* display: flex; */
-  /* gap: 5px; */
-  /* justify-content: center;
-  align-items: flex-start; */
   min-width: 100px;
 }
 .head-title {
