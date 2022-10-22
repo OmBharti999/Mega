@@ -13,6 +13,8 @@ export default function Home() {
       <br />
       <Link to="/tip-calculator">tip</Link>
       <br />
+      <Link to="/advice">advice</Link>
+      <br />
       <div className="btn-conatier-for-home">
         <button
           className={theme ? "night" : ""}
