@@ -1,0 +1,43 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5vh;
+  padding: 3% 5%;
+  color: white;
+  background: #3ef0b8;
+}
+.head h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.head a {
+  text-decoration: none;
+}
+.head a:visited {
+  color: white;
+}
+
+.not-active {
+  position: relative;
+  padding-left: 10px;
+  /* display: flex; */
+  /* gap: 5px; */
+  /* justify-content: center;
+  align-items: flex-start; */
+  min-width: 100px;
+}
+.head-title {
+  position: absolute;
+  line-height: 110%;
+  padding-left: 6px;
+  /* vertical-align: right; */
+  /* margin-top: -10px; */
+}
+.home-name {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
