@@ -17,9 +17,6 @@ export default function Advice() {
     <div className="advice-container">
       <div className="advice-text">
         <div>{advice}</div>
-        <button onClick={fetchQ} className="btn-advice">
-          Click
-        </button>
       </div>
     </div>
   );
